@@ -407,7 +407,7 @@ if (process.env.NODE_ENV === 'production') {
   const distPath = join(__dirname, '../dist')
   if (existsSync(distPath)) {
     app.use(express.static(distPath))
-    app.get('*', (req, res) => res.sendFile(join(distPath, 'index.html')))
+    app.get('/{*path}', (req, res) => res.sendFile(join(distPath, 'index.html')))
   }
 }
 
