@@ -1,0 +1,302 @@
+{
+  "config": {
+    "assessments": [
+      "每月测验 1",
+      "三月考",
+      "年中考",
+      "预考",
+      "预测"
+    ],
+    "gradeBands": [
+      {
+        "grade": "A+",
+        "min": 90
+      },
+      {
+        "grade": "A",
+        "min": 80
+      },
+      {
+        "grade": "A-",
+        "min": 70
+      },
+      {
+        "grade": "B+",
+        "min": 65
+      },
+      {
+        "grade": "B",
+        "min": 60
+      },
+      {
+        "grade": "C+",
+        "min": 55
+      },
+      {
+        "grade": "C",
+        "min": 50
+      },
+      {
+        "grade": "D",
+        "min": 45
+      },
+      {
+        "grade": "E",
+        "min": 40
+      },
+      {
+        "grade": "G",
+        "min": 0
+      }
+    ],
+    "failGrades": [
+      "E",
+      "G"
+    ],
+    "teacherPasswordHash": "$2b$10$ckWMhKarloggcFFCGl2bJO5JlHyH/1HG76oA7mR/6SFGuFF0sZ/im",
+    "xpConfig": {
+      "completeAssessment": 50,
+      "improvedResult": 30,
+      "hitTarget": 50,
+      "noAbsenceStreak": 20
+    },
+    "blindBoxProbabilities": [
+      {
+        "band": "新手",
+        "minLevel": 1,
+        "maxLevel": 5,
+        "普通": 68,
+        "稀有": 27,
+        "史诗": 4,
+        "传说": 0.9,
+        "神话": 0.1
+      },
+      {
+        "band": "进阶",
+        "minLevel": 6,
+        "maxLevel": 15,
+        "普通": 55,
+        "稀有": 33,
+        "史诗": 9,
+        "传说": 2.5,
+        "神话": 0.5
+      },
+      {
+        "band": "高手",
+        "minLevel": 16,
+        "maxLevel": 25,
+        "普通": 42,
+        "稀有": 38,
+        "史诗": 14,
+        "传说": 5,
+        "神话": 1
+      },
+      {
+        "band": "大师",
+        "minLevel": 26,
+        "maxLevel": 999,
+        "普通": 30,
+        "稀有": 40,
+        "史诗": 20,
+        "传说": 8,
+        "神话": 2
+      }
+    ]
+  },
+  "students": [
+    {
+      "id": "s1781358987704",
+      "level": 1,
+      "xp": 0,
+      "boxPity": 0,
+      "inventory": [],
+      "companionStage": "spark",
+      "name": "YEW KAI ZHI",
+      "form": 2,
+      "class": "EFISIEN",
+      "targets": {
+        "数学": "C",
+        "华文": "C",
+        "物理": "C",
+        "生物": "C",
+        "英语": "C",
+        "马来文": "C",
+        "化学": "C",
+        "历史": "C"
+      }
+    }
+  ],
+  "scores": [],
+  "strategies": [
+    {
+      "id": "st_math_01",
+      "subject": "数学",
+      "topicHint": "代数",
+      "text": "专注代数基础：每天练习10道方程题，从简单到复杂逐步提升。用错题本记录每个错误，找出重复犯错的题型。",
+      "source": "Mr. Jackson"
+    },
+    {
+      "id": "st_eng_01",
+      "subject": "英语",
+      "topicHint": "写作",
+      "text": "每天阅读一篇英文文章并摘录5个新词汇。写作练习：每周一篇200字短文，注意句子结构和连接词的使用。",
+      "source": "Mr. Jackson"
+    },
+    {
+      "id": "st_chi_01",
+      "subject": "华文",
+      "topicHint": "作文",
+      "text": "加强阅读理解：每天练习一篇阅读理解题。作文方面，学习使用更丰富的词语和成语来提升文章质量。",
+      "source": "Mr. Jackson"
+    },
+    {
+      "id": "st_bm_01",
+      "subject": "马来文",
+      "topicHint": "写作",
+      "text": "掌握常用词汇和固定搭配。每天背诵5个peribahasa，并在写作中灵活运用。注意komsas部分的主题和人物分析。",
+      "source": "Mr. Jackson"
+    },
+    {
+      "id": "st_phy_01",
+      "subject": "物理",
+      "topicHint": "力学",
+      "text": "物理弱点通常在于公式记忆不熟练。建立公式手册，每章整理所有公式和单位。多做计算题，确保每步骤写清楚。",
+      "source": "Mr. Jackson"
+    },
+    {
+      "id": "st_chem_01",
+      "subject": "化学",
+      "topicHint": "化学反应",
+      "text": "化学方程式配平是基础。每天练习方程式配平，理解氧化还原反应概念。有机化学部分记忆官能团和反应类型。",
+      "source": "Mr. Jackson"
+    },
+    {
+      "id": "st_bio_01",
+      "subject": "生物",
+      "topicHint": "细胞",
+      "text": "生物重在理解，不是死记硬背。用思维导图整理各章节概念关系，重点掌握细胞、遗传、生态三大核心主题。",
+      "source": "Mr. Jackson"
+    },
+    {
+      "id": "st_hist_01",
+      "subject": "历史",
+      "topicHint": "近代史",
+      "text": "历史理解比记忆更重要。用时间线整理重大事件，理解因果关系。近代马来西亚历史是重点，掌握独立运动和国家发展脉络。",
+      "source": "Mr. Jackson"
+    }
+  ],
+  "items": [
+    {
+      "id": "item_001",
+      "name": "星尘碎片",
+      "rarity": "普通",
+      "emoji": "✨",
+      "description": "来自遥远星系的细小碎片"
+    },
+    {
+      "id": "item_002",
+      "name": "彩虹石",
+      "rarity": "普通",
+      "emoji": "🪨",
+      "description": "折射七色光芒的小石头"
+    },
+    {
+      "id": "item_003",
+      "name": "幸运草",
+      "rarity": "普通",
+      "emoji": "🍀",
+      "description": "四叶的幸运草，带来好运"
+    },
+    {
+      "id": "item_004",
+      "name": "魔法羽毛",
+      "rarity": "普通",
+      "emoji": "🪶",
+      "description": "轻飘飘的魔法羽毛"
+    },
+    {
+      "id": "item_005",
+      "name": "水晶球",
+      "rarity": "稀有",
+      "emoji": "🔮",
+      "description": "能窥见未来的水晶球"
+    },
+    {
+      "id": "item_006",
+      "name": "星光剑",
+      "rarity": "稀有",
+      "emoji": "⚔️",
+      "description": "由星光锻造的利剑"
+    },
+    {
+      "id": "item_007",
+      "name": "月光盾",
+      "rarity": "稀有",
+      "emoji": "🛡️",
+      "description": "由月光铸成的坚盾"
+    },
+    {
+      "id": "item_008",
+      "name": "飞行靴",
+      "rarity": "稀有",
+      "emoji": "👟",
+      "description": "能让你飞翔的魔法靴"
+    },
+    {
+      "id": "item_009",
+      "name": "龙之鳞",
+      "rarity": "史诗",
+      "emoji": "🐉",
+      "description": "来自上古巨龙的鳞片"
+    },
+    {
+      "id": "item_010",
+      "name": "凤凰羽",
+      "rarity": "史诗",
+      "emoji": "🦅",
+      "description": "浴火重生的凤凰羽毛"
+    },
+    {
+      "id": "item_011",
+      "name": "雷霆锤",
+      "rarity": "史诗",
+      "emoji": "🔨",
+      "description": "蕴含雷霆之力的神锤"
+    },
+    {
+      "id": "item_012",
+      "name": "时空怀表",
+      "rarity": "史诗",
+      "emoji": "⏱️",
+      "description": "能短暂停止时间的怀表"
+    },
+    {
+      "id": "item_013",
+      "name": "星王之冠",
+      "rarity": "传说",
+      "emoji": "👑",
+      "description": "星际之王佩戴的黄金王冠"
+    },
+    {
+      "id": "item_014",
+      "name": "命运之轮",
+      "rarity": "传说",
+      "emoji": "⭐",
+      "description": "掌控命运的神秘之轮"
+    },
+    {
+      "id": "item_015",
+      "name": "光之精华",
+      "rarity": "神话",
+      "emoji": "☀️",
+      "description": "宇宙诞生时最初的光芒"
+    },
+    {
+      "id": "item_016",
+      "name": "混沌之源",
+      "rarity": "神话",
+      "emoji": "🌌",
+      "description": "创世之初混沌能量的结晶"
+    }
+  ]
+}
